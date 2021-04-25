@@ -7,17 +7,18 @@ $a^2+b^2=c^2$ und gibt diese aus.
 
 Bemerkung: Was passiert, wenn Sie eine negative Zahl eingeben?
 '''
-
-# Module laden
-from math import sqrt
+# Laden der notwendigen Module
+from math import *
 
 # Eingabe
-a = int(input("Bitte geben Sie die Länge der Kathete a ein: "))
-b = int(input("Bitte geben Sie die Länge der Kathete b ein: "))
+a = float(input('Bitte geben Sie die Länge der Kathete a ein: '))
+b = float(input('Bitte geben Sie die Länge der Kathete b ein: '))
+
 
 # Verarbeitung
-hypotenuse = sqrt(a**2 + b**2)
+c = sqrt(a**2 + b**2)
+
 
 # Ausgabe
-print('Die Länge der Hypotenuse ist ', hypotenuse)
+print('Die Länge der Hypotenuse ist ', c)
 

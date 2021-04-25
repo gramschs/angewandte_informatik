@@ -26,25 +26,3 @@ sollen und was das Programm am Ende ausgeben soll. Danach implementieren Sie Ihr
 Programmierstil. Verwenden Sie »sprechende« Variablennamen. Setzen Sie die Funktion input() für die Eingabe der
 Zahlenwerte ein und denken Sie an die Umwandlung in einen Integer, falls Sie Python verwenden.
 '''
-
-print("Kostenplan für eine Reise")
-print("-------------------------")
-
-
-# Eingabe
-personen = int(input("Anzahl der Teilnehmer: "))
-hotel_kosten = float(input("Hotelkosten pro Person: "))
-bus_kosten = int(input("Gesamtkosten für den Reisebus: "))
-event_kosten = float(input("Gesamtkosten für touristische Events: "))
-sonstige_kostigen = int(input("Sonstige Kosten pro Person: "))
-
-
-# Verarbeitung
-gesamt_kosten = personen * hotel_kosten + personen * sonstige_kostigen + bus_kosten + event_kosten
-kosten_pro_person = gesamt_kosten / personen
-
-
-# Ausgabe
-print()
-print("Die Gesamtkosten betragen", gesamt_kosten, "EUR.")
-print("Die Kosten pro Person sind", kosten_pro_person, "EUR.")

@@ -4,14 +4,20 @@ Aufgabe 2.7 Fläche und Umfang eines Kreises
 Schreiben Sie ein Programm, das den Benutzer nach dem Radius eines Kreises fragt und anschließend Fläche und Umfang des
 Kreises ausgibt.
 '''
-from math import pi
+
+# Module nachladen
+from math import *
+
+
 # Eingabe
-radius = input('Bitte geben Sie den Radius des Kreises an: ')
+radius = float(input('Bitte geben Sie den Radius in mm an: '))
 
 # Verarbeitung
-A = pi * radius * radius
+A = pi * radius**2
 U = 2 * pi * radius
 
 # Ausgabe
-print('Die Fläche ist: ', A)
-print('Der Umfang ist: ', U)
+print('Die Fläche des Kreise ist {0:.2f} mm^2.'.format(A))
+print('Der Umfang des Kreises ist {0:.4f} mm. '.format(U))
+
+
