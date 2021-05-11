@@ -19,7 +19,7 @@ hat_schnupfen = False
 hat_keine_weiteren_symptome = False
 
 # Eingabe
-antwort = input('Haben Sie Fieber (j(n)?')
+antwort = input('Haben Sie Fieber (j/n)?')
 if antwort == 'j':
     antwort = input('Ist das Fieber höher als 38,0 °C (j/n)? ')
     if antwort == 'j':

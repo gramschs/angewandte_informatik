@@ -20,9 +20,9 @@ if alter <= 5:
     print('Sie brauchen kein Ticket.')
 elif (6 <= alter) and (alter <= 14):
     print('Sie brauchen ein Kinder-Ticket.')
-elif (alter <= 15) and (alter <= 21) and (hat_schuelerausweis == 'j'):
+elif (15 <= alter) and (alter <= 21) and (hat_schuelerausweis == 'j'):
     print('Sie brauchen ein Kinder-Ticket.')
 elif (15 <= alter) and (alter <= 59):
-    print('Sie brauchen ein Kinder-Ticket.')
+    print('Sie brauchen ein Erwachsenen-Ticket.')
 else:
     print('Sie brauchen ein Senioren-Ticket.')
