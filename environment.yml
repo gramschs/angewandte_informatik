@@ -1,0 +1,10 @@
+name: python38
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - jupyter
+  - matplotlib
+  - sympy
+  - nodejs
+  - ipympl
