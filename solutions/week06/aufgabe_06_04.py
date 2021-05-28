@@ -1,21 +1,12 @@
 '''
-Aufgabe 6.1
+Aufgabe 6.4 Zahlenraten
 
-Wie lange muss man einen Würfel werfen, bis (zum ersten Mal) eine 6 erscheint?
-
-1. Schreiben Sie eine *Funktion*, die so lange würfelt, bis eine 6 erschienen ist. Als Rückgabe gibt die Funktion die
-Anzahl der Würfe zurück.
-
-2. Schreiben Sie anschließend ein *Programm*, bei dem ein Benutzer eingeben darf, wie oft der Würfelversuch in Schritt 1
-durchgeführt werden soll. Anschließend wird die Funktion aus Schritt 1 so oft ausgeführt, wie vom Benutzer angegeben.
-Zuletzt wird der Mittelwert der Würfelversuche berechnet und ausgegeben.
-
-Beispiel:
-
-* Computer: "Wie oft soll der Würfelversuch durchgeführt werden?
-* Benutzer: 7
-* Computer: "Im Durchschnitt wurde nach 6,7 maligem Würfeln das erste Mal eine 6 gewürfelt."
-
+Schreiben Sie ein Programm, bei dem der Computer sich eine Zahl zwischen 1 und 100 ausdenkt (d.h. eine Zufallszahl
+zieht). Anschließend wird der Benutzer aufgefordert, die Zahl zu raten. Wenn die Zahl des Benutzers kleiner als die
+Zufallszahl des Computer ist, so gibt er den Hinweis: "Meine Zahl ist größer.". Wenn die Zahl des Benutzers größer
+ist als die Zufallszahl des Computers, so gibt er den Hinweis "Meine Zahl ist kleiner." Sobald der Benutzer die Zahl
+richtig geraten hat, gibt der Computer den Hinweis "Gratulation, die Zahl xx ist richtig! Sie haben xx Versuche
+gebraucht, um meine Zahl zu raten.", wobei 'xx' jeweils durch die richtigen Zahlen ersetzt wird.
 '''
 
 from random import *
