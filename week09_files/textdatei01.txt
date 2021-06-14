@@ -1,0 +1,4 @@
+Dies ist eine Textdatei.
+Und hier die zweite Zeile.
+
+Leerzeilen funktionieren auch, das ist jetzt die 4. Zeile.
